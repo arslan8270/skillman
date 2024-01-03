@@ -22,3 +22,73 @@ width:80%;
 font-size:1.8rem;
 color:#85868C;
 }
+.dt-fancy-title{
+font-size: 4rem;
+    font-weight: bold;
+    color: #1EBBF0;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+/*media queries*/
+
+@media (min-width:992px) and (max-width:1500px) {
+    html {
+        font-size: 55%
+    }
+
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    html {
+        font-size: 50%
+    }
+
+
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    html {
+        font-size: 45%
+    }
+
+
+
+}
+
+
+@media (max-width:576px) {
+    html {
+        font-size: 40%
+    }
+
+
+  .psl_one_img{
+      flex-direction: column;
+    width: 100%;
+  }
+  .psl_one_left{
+  width:100%;
+  }
+  .psl_one_left img{
+  width:100%;
+  }
+  .psl_one_right{
+      width: 90%;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+    }
+
+
