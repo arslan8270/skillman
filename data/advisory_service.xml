@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="skillman_web.advisory" name="skillman_web">
+        <t t-call="website.layout">
+            <head>
+                <meta charset="UTF-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+                <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+                      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+                      crossorigin="anonymous"/>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+                        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+                        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                        crossorigin="anonymous"></script>
+                <script src="https://kit.fontawesome.com/85d4ea6a88.js" crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+                        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                        crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="/skillman_web/static/src/css/advisory.css"/>
+
+
+                <title>Skill man</title>
+            </head>
+            <body>
+
+                <div class="main_advisory">
+
+                    <div class="main_img">
+                        <h1>ADVISORY SERVICE
+                        </h1>
+                        <p>Home / Skillman advisory service</p>
+                    </div>
+                    <div class="wpb_wrapper">
+                        <p align="center">
+                            <b>
+                                <span style="font-size: x-large;">Whether you are a</span>
+                                <span style="color: #45d6bb; font-size: x-large;">TVET provider, a school
+                                    teacher/trainer, a company leader or a TVET expert…
+                                </span>
+                            </b>
+                        </p>
+
+                    </div>
+                    <div class="wpb_text_column wpb_content_element ">
+                        <div class="wpb_wrapper">
+                            <p align="center">
+                                <span style="font-size: xx-large;">
+                                    <b>Start enjoying our Skillman advisory service!</b>
+                                </span>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="wpb_wrapper">
+                        <p align="center">
+                            <span style="font-family: arial black,sans-serif; font-size: xx-large;">it includes</span>
+                        </p>
+
+                    </div>
+
+                    <div class="vc_row wpb_row vc_row-fluid dt-default d-flex"
+                         style="margin-top: 0px; margin-bottom: 0px; min-height: 0px; justify-content:space-around;">
+                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                        <figure class="wpb_wrapper vc_figure">
+                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <img width="181" height="181"
+                                                     src="https://skillman.eu/wp-content/uploads/2021/03/eu-tools.png"
+                                                     class="vc_single_image-img attachment-medium" alt=""
+                                                     decoding="async" loading="lazy" title="eu tools"
+                                                     srcset="https://skillman.eu/wp-content/uploads/2021/03/eu-tools.png 181w, https://skillman.eu/wp-content/uploads/2021/03/eu-tools-150x150.png 150w"
+                                                     sizes="(max-width: 181px) 100vw, 181px"
+                                                     data-dt-location="https://skillman.eu/skillman-advisory-service/eu-tools/"/>
+                                            </div>
+                                        </figure>
+                                    </div>
+
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+                                            <p align="center">
+                                                <span style="font-family: arial black,sans-serif; font-size: medium;">
+                                                    Support on EU tools
+                                                </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                        <figure class="wpb_wrapper vc_figure">
+                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <img width="182" height="182"
+                                                     src="https://skillman.eu/wp-content/uploads/2021/03/curriculum.png"
+                                                     class="vc_single_image-img attachment-medium" alt=""
+                                                     decoding="async" loading="lazy" title="curriculum"
+                                                     srcset="https://skillman.eu/wp-content/uploads/2021/03/curriculum.png 182w, https://skillman.eu/wp-content/uploads/2021/03/curriculum-150x150.png 150w"
+                                                     sizes="(max-width: 182px) 100vw, 182px"
+                                                     data-dt-location="https://skillman.eu/skillman-advisory-service/curriculum/"/>
+                                            </div>
+                                        </figure>
+                                    </div>
+
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+                                            <p align="center">
+                                                <span style="font-family: arial black,sans-serif; font-size: medium;">
+                                                    Curriculum development guidelines
+                                                </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                        <figure class="wpb_wrapper vc_figure">
+                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <img width="185" height="185"
+                                                     src="https://skillman.eu/wp-content/uploads/2021/03/companies-trainin.png"
+                                                     class="vc_single_image-img attachment-medium" alt=""
+                                                     decoding="async" loading="lazy" title="companies trainin"
+                                                     srcset="https://skillman.eu/wp-content/uploads/2021/03/companies-trainin.png 185w, https://skillman.eu/wp-content/uploads/2021/03/companies-trainin-150x150.png 150w"
+                                                     sizes="(max-width: 185px) 100vw, 185px"
+                                                     data-dt-location="https://skillman.eu/skillman-advisory-service/companies-trainin/"/>
+                                            </div>
+                                        </figure>
+                                    </div>
+
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+                                            <p align="center">
+                                                <span style="font-family: arial black,sans-serif; font-size: medium;">
+                                                    Companies assistance on skills foresight
+                                                </span>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="hr-thin style-line accent-border-color"
+                                     style="width: 100%;border-top-width: 3px; margin-top:5rem;"></div>
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="vc_row wpb_row vc_row-fluid dt-default d-flex"
+                         style="margin-top: 0px; margin-bottom: 0px; min-height: 0px; width:100%; font-size:
+                    2rem;
+                    width: 90%;
+                    margin: auto;
+                    color: #898890;">
+                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+                                            <p>
+                                                <b>
+                                                    <span style="font-size: x-large;">Why is Advisory Service
+                                                        important?
+                                                    </span>
+                                                </b>
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="wpb_single_image wpb_content_element vc_align_left">
+
+                                        <figure class="wpb_wrapper vc_figure">
+                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <img width="300" height="291"
+                                                     src="https://skillman.eu/wp-content/uploads/2021/03/assistance-300x291.png"
+                                                     class="vc_single_image-img attachment-medium" alt=""
+                                                     decoding="async" loading="lazy" title="assistance"
+                                                     srcset="https://skillman.eu/wp-content/uploads/2021/03/assistance-300x291.png 300w, https://skillman.eu/wp-content/uploads/2021/03/assistance.png 341w"
+                                                     sizes="(max-width: 300px) 100vw, 300px"
+                                                     data-dt-location="https://skillman.eu/skillman-advisory-service/assistance/"/>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element" style="width:58%; margin:auto;">
+                                        <div class="wpb_wrapper">
+                                            <p>In a time-challenged world, the TVET field is no exception in speeding up
+                                                innovation and new trends. Therefore, stakeholders at all levels need
+                                                seamless support experiences that make them feel
+                                                <b>
+                                                    <span style="font-size: large;">valued.</span>
+                                                </b>
+                                                The Skillman advisory service helps with:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <b>Support on the latest tools and solutions that are provided for
+                                                        free by the EU Commission.
+                                                    </b>
+                                                </li>
+                                                <li>
+                                                    <b>Curriculum development guidelines to TVET providers to improve
+                                                        their existing frameworks.
+                                                    </b>
+                                                </li>
+                                                <li>
+                                                    <b>Assistance to companies on skills foresight, anticipating labor
+                                                        market needs, and matching skills.
+                                                    </b>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-4">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                        <figure class="wpb_wrapper vc_figure">
+                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <img width="300" height="238"
+                                                     src="https://skillman.eu/wp-content/uploads/2021/03/assist-300x238.png"
+                                                     class="vc_single_image-img attachment-medium" alt=""
+                                                     decoding="async" loading="lazy" title="assist"
+                                                     srcset="https://skillman.eu/wp-content/uploads/2021/03/assist-300x238.png 300w, https://skillman.eu/wp-content/uploads/2021/03/assist.png 360w"
+                                                     sizes="(max-width: 300px) 100vw, 300px"
+                                                     data-dt-location="https://skillman.eu/skillman-advisory-service/assist/"/>
+                                            </div>
+                                        </figure>
+                                    </div>
+
+                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+
+                                        <figure class="wpb_wrapper vc_figure">
+                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <img width="215" height="106"
+                                                     src="https://skillman.eu/wp-content/uploads/2021/03/NewChat.png"
+                                                     class="vc_single_image-img attachment-medium" alt=""
+                                                     decoding="async" loading="lazy" title="NewChat"
+                                                     data-dt-location="https://skillman.eu/skillman-advisory-service/newchat/"/>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <blockquote class="text-big shortcode-blockquote block-style-widget container-fluid"
+                                style="background:#F7F7F7; width:80%;">
+                        <p>
+                            <span style="color: #808080; font-size:2rem; font-weight:bold;">“Desk service can mean many
+                                things, depending on the nature of
+                                your business. But it all goes back to the core principle of helping people and serving
+                                as a place where they can go to get help.”
+                            </span>
+                        </p>
+                        <p>
+                            <span style="color: #808080; font-size: small; ">Chris Grosspietsch, Senior Manager,
+                                Advocacy
+                                Operations at Zendesk
+                            </span>
+                        </p>
+                    </blockquote>
+
+                    <div class="dt-fancy-separator title-left h2-size accent-title-color container-fluid d-flex"
+                         style="width: 100%; font-size:3rem; color:#34D9B5; font-weight:bold; margin-left:15rem;">
+                        <div class="dt-fancy-title"><span class="separator-holder separator-left"></span>SUPPORT ON EU
+                            TOOLS
+                            <span class="separator-holder separator-right"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="wpb_text_column wpb_content_element"
+                         style="color:#90868C; font-size:1.8rem; width:80%; margin:auto;">
+                        <div class="wpb_wrapper">
+                            <p>This section is crucial for the implementation and dissemination of the relevant existing
+                                European tools and initiatives in the field of TVET. Here we share detailed information
+                                about the tools, their benefits and how to access them, providing assistance on these
+                                solutions via the real-time chat below. All the EU tools are <b>free of charge</b>, they
+                                were conceived by the European Commission and finalized with the contribution and work
+                                of teams of experts in TVET and partner institutions.
+                            </p>
+                            <p>Among them are SELFIE, Europass, VET toolkit for tackling early leaving, ECVET Toolkit,
+                                EQAVET, ESCO DB, VET Mobility Charters, the European Framework for quality and effective
+                                apprenticeships, European Alliance for Apprenticeships, Drop’pin@EURES, European Pact
+                                for Youth, EPALE etc.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="rm_imgs">
+                        <div class="img_cntnr">
+                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions.png"
+                                 alt="First slide"/>
+                            <button class="r_btn">Read more</button>
+
+                        </div>
+                        <div class="img_cntnr">
+                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-1.png"
+                                 alt="First slide"/>
+                            <button class="r_btn">Read more</button>
+                        </div>
+                        <div class="img_cntnr">
+                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-2.png"
+                                 alt="First slide"/>
+                            <button class="r_btn">Read more</button>
+                        </div>
+                        <div class="img_cntnr">
+                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-3.png"
+                                 alt="First slide"/>
+                            <button class="r_btn">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="wpb_wrapper">
+                        <div class="wpb_text_column wpb_content_element ">
+                            <div class="wpb_wrapper">
+
+                            </div>
+                        </div>
+                        <div class="dt-fancy-separator title-left h2-size accent-title-color"
+                             style="width: 100%; margin-left:4rem;">
+                            <div class="dt-fancy-title" style="    font-size: 4rem; margin:auto;
+    color: #35DAB3;
+    font-weight: bold;"><span class="separator-holder separator-left"></span>CURRICULUM
+                                DEVELOPMENT GUIDELINES
+                                <span class="separator-holder separator-right"></span>
+                            </div>
+                        </div>
+                        <div class="wpb_text_column wpb_content_element ">
+                            <div class="wpb_wrapper" style="font-size:2rem; width:95%; margin:auto;">
+                                <p>SKILLNT supports the VET providers in revising their curricula fostering innovative
+                                    learning of key competences. The SKILLNT platform offers a tailored training focused
+                                    to the <strong>CURRICULA DEVELOPMENT</strong> and the implementation of the <strong>
+                                        ECVET standards</strong>.
+                                </p>
+                                <p>Follow the following link to access the course:</p>
+                                <p>
+                                    <a href="https://learn.skillman.eu/course/view.php?id=130">
+                                        https://learn.skillman.eu/course/view.php?id=130
+                                    </a>
+                                </p>
+                                <p>Tailored trainings on upskilling and reskilling employees</p>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper">
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+
+                                </div>
+                            </div>
+                            <div class="dt-fancy-separator title-left h2-size accent-title-color" style="width: 100%;">
+                                <div class="dt-fancy-title" style="    font-size: 4rem;
+    color: #2FD1C5;
+    font-weight: bold;
+    width: 95%;
+    margin: auto;">
+                                    <span class="separator-holder separator-left"></span>
+                                    COMPANIES ASSISTANCE ON SKILLS FORESIGHT
+                                    <span class="separator-holder separator-right"></span>
+                                </div>
+                            </div>
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+
+                                </div>
+                            </div>
+
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vc_row wpb_row vc_row-fluid dt-default d-flex"
+                         style="margin-top: 0px; margin-bottom: 0px; min-height: 0px;">
+                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper" style="font-size:1.8rem; margin-left:5rem; margin-right:5rem;">
+                                            <p>
+                                                <span style="color: #45d6bb; font-size: x-large;">
+                                                    <strong>
+                                                        <span style="font-size: 18pt;">Any questions? Ask us in the
+                                                            real-time chat!
+                                                        </span>
+                                                    </strong>
+                                                </span>
+                                            </p>
+                                            <p>In case you have any doubts or questions, please use the chat tool <strong>
+                                                by clicking <br/> on the “chat” icon
+                                            </strong> at the bottom right corner of the page. Our team will get <br/> back to
+                                                you to assist with your enquiries.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_single_image wpb_content_element vc_align_left">
+
+                                        <figure class="wpb_wrapper vc_figure">
+                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <img width="300" height="200"
+                                                     src="https://skillman.eu/wp-content/uploads/2021/03/chatbot-300x200.jpeg"
+                                                     class="vc_single_image-img attachment-medium" alt=""
+                                                     decoding="async" loading="lazy" title="chatbot"
+                                                     srcset="https://skillman.eu/wp-content/uploads/2021/03/chatbot-300x200.jpeg 300w, https://skillman.eu/wp-content/uploads/2021/03/chatbot-600x399.jpeg 600w, https://skillman.eu/wp-content/uploads/2021/03/chatbot-1024x682.jpeg 1024w, https://skillman.eu/wp-content/uploads/2021/03/chatbot-768x511.jpeg 768w, https://skillman.eu/wp-content/uploads/2021/03/chatbot-1320x879.jpeg 1320w, https://skillman.eu/wp-content/uploads/2021/03/chatbot.jpeg 1496w"
+                                                     sizes="(max-width: 300px) 100vw, 300px"
+                                                     data-dt-location="https://skillman.eu/skillman-advisory-service/chatbot/"/>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+                        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+                        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            </body>
+        </t>
+    </template>
+</odoo>

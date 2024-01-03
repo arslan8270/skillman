@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="replace_footer" inherit_id="website.footer_custom" name="Footer">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <footer class="container-fluid footer pt-5">
+                <script src="https://kit.fontawesome.com/85d4ea6a88.js" crossorigin="anonymous"></script>
+
+              <div>
+                  <h1>Footer</h1>
+              </div>
+            </footer>
+        </xpath>
+    </template>
+</odoo>

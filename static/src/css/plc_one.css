@@ -1,0 +1,24 @@
+html{
+font-size:62.5%;
+}
+
+.main_plc_one{
+display:flex;
+width:100%;
+flex-direction:column;
+}
+.psl_one_img{
+width:100%;
+display:flex;
+}
+.psl_one_left{
+width:20%;
+}
+.psl_one_right{
+width:80%;
+}
+
+.psl_one_right p{
+font-size:1.8rem;
+color:#85868C;
+}

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="skillman_web.gender" name="skillman_web">
+        <t t-call="website.layout">
+            <head>
+                <meta charset="UTF-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+                <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+                      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+                      crossorigin="anonymous"/>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+                        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+                        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                        crossorigin="anonymous"></script>
+                <script src="https://kit.fontawesome.com/85d4ea6a88.js" crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+                        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                        crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="/skillman_web/static/src/css/gender.css"/>
+
+
+                <title>Gender</title>
+            </head>
+            <body>
+                <div class="main_gen">
+                    <div class="main_sec">
+                        <h1>GENDER EQUALITY</h1>
+                        <p>Home / Gender equality</p>
+                    </div>
+
+
+                    <div class="main_sec_para">
+                        <h2>Skillman supports the EU policies against gender and any kind of discrimination and
+                            inequalities
+                            in the labour market
+                        </h2>
+                        <p>VET and educational programs in the field of advanced manufacturing developed by Skillman
+                            represent opportunities without any gender or other kind of discrimination.
+
+                        </p>
+                        <p>Women undertaking educational programs in the field of advanced manufacturing are more than
+                            welcome and supported especially in the countries where this right is not
+                            <br/>
+                            facilitated.
+
+                        </p>
+                        <p>The skillman platform wish also to highlight other related EU policies and measures which
+                            promote
+                            the equal chances and equal opportunities.
+
+                        </p>
+                        <p>***********
+
+                        </p>
+                        <p class="f_link_p">
+                            <a href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality_en">
+                                Promoting equal economic independence for women and men, closing the gender pay gap,
+                                advancing gender balance in decision making, ending gender based violence and promoting
+                                gender equality beyond the EU.
+                            </a>
+                        </p>
+                    </div>
+                    <div class="main_sec_para">
+                        <h1 class="eq_head">Equal pay
+                        </h1>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/equal-pay/gender-pay-gap-situation-eu_en">
+                                The gender pay gap situation in the EU
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/equal-pay/causes-unequal-pay-between-men-and-women_en">
+                                Causes of unequal pay between men and women
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/equal-pay/eu-action-against-pay-discrimination_en">
+                                EU action against pay discrimination
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/equal-pay/combating-pay-discrimination_en">
+                                Combating pay discrimination in Member States
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/equal-pay/tools-and-actions-more-gender-equality_en">
+                                Tools and actions for more gender equality
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="main_sec_para">
+                        <h2 class="listing__section-title">Who we work with on gender equality</h2>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/who-we-work-gender-equality/national-gender-equality-bodies_en">
+                                National gender equality bodies
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/who-we-work-gender-equality/high-level-group-gender-mainstreaming-and-advisory-committee-equal-opportunities-women-and-men_en">
+                                High-level group on gender mainstreaming and Advisory committee on equal opportunities
+                                for women and men
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/who-we-work-gender-equality/european-institute-gender-equality_en">
+                                European Institute for Gender Equality
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/who-we-work-gender-equality/network-legal-experts-gender-equality-and-non-discrimination_en">
+                                Network of legal experts in gender equality and non-discrimination
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/who-we-work-gender-equality/european-network-experts-gender-equality_en">
+                                European network of experts on gender equality
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/who-we-work-gender-equality/mutual-learning-programme-gender-equality_en">
+                                Mutual Learning Programme in gender equality
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="main_sec_para">
+                        <h2 class="listing__section-title">Gender balance in decision-making positions</h2>
+                        <p class="listing__description">
+                            <a href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/gender-balance-decision-making-positions_en">
+                                Initiatives for ending the EU gender gap in decision-making positions, such as politics
+                                and business.
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="main_sec_para">
+                        <h2 class="listing__section-title">Equal economic independence</h2>
+                        <p class="listing__description"><a
+                                href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/equal-economic-independence_en">
+                            Targets for equality in labour market participation in the EU, childcare and tax incentives,
+                            and the European Commission’s roadmap for increased participation of women in the
+                            workforce</a>.
+                        </p>
+                    </div>
+
+                    <div class="main_sec_para">
+                        <h2 class="listing__section-title">Gender equality strategy</h2>
+                        <p class="listing__description"><a
+                                href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/gender-equality-strategy_en">
+                            Measures taken to promote the advancement of women and objectives for strategic engagement
+                            for gender equality</a>.
+                        </p>
+
+                    </div>
+
+                    <div class="main_sec_para">
+                        <h2 class="listing__section-title">Promoting gender equality beyond the EU</h2>
+                        <p class="listing__description">
+                            <a href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/promoting-gender-equality-beyond-eu_en">
+                                EU works to promote gender equality across the world though development cooperation
+                            </a>
+                        </p>
+
+
+                    </div>
+
+
+                    <div class="main_sec_para">
+                        <h2 class="listing__section-title">Gender-based violence</h2>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/gender-based-violence/what-gender-based-violence_en">
+                                What is gender-based violence?
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/gender-based-violence/ending-gender-based-violence_en">
+                                Ending gender-based violence
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/gender-based-violence/eliminating-female-genital-mutilation_en">
+                                Eliminating female genital mutilation
+                            </a>
+                        </div>
+                        <div class="listing__item">
+                            <a class="listing__title"
+                               href="https://ec.europa.eu/info/policies/justice-and-fundamental-rights/gender-equality/gender-based-violence/eu-funding-raise-awareness-gender-based-violence_en">
+                                EU funding to raise awareness of gender-based violence
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="line_data">
+                    <div style="float:left; width: 22%;">
+                        <hr/>
+                    </div>
+                    <div style="float:right; width: 22%;">
+                        <hr/>
+                    </div>
+
+                    <p class="line_p">
+                        Tackling the gender pay gap in the European Union
+
+                    </p>
+                </div>
+                <h2 class="last_heading">Browse Booklet
+                </h2>
+
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                <script>
+                    AOS.init();
+                </script>
+
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+                        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+                        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            </body>
+        </t>
+    </template>
+</odoo>

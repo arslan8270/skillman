@@ -1,0 +1,97 @@
+html{
+font-size:62.5%;
+}
+
+.main_webinars{
+width:100%;
+display:flex;
+}
+.main_webinar_left{
+width:60%;
+
+
+}
+.main_webinar_right{
+width:40%;
+
+
+}
+.dt-fancy-title{
+background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size:4rem;
+    margin:auto;
+}
+
+.tagcloud a{
+color:gray;
+}
+ul li a{
+color:#808080;
+}
+
+
+
+/*media queries*/
+
+@media (min-width:992px) and (max-width:1500px) {
+    html {
+        font-size: 55%
+    }
+
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    html {
+        font-size: 50%
+    }
+
+
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    html {
+        font-size: 45%
+    }
+
+
+
+}
+
+
+@media (max-width:576px) {
+    html {
+        font-size: 40%
+    }
+
+    .main_webinars{
+    flex-direction:column;
+    width:100%;
+    margin:auto;
+    }
+    .main_webinar_left{
+    width:100%;
+    }
+    .main_webinar_right{
+    width:100%;
+    }
+    .vc_row{
+    flex-direction:column;
+    }
+
+
+
+
+
+
+
+
+
+    }
+
+

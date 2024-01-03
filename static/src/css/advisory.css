@@ -1,0 +1,108 @@
+html{
+font-size:62.5%;
+}
+
+
+
+.main_img{
+ background: url("/skillman_web/static/src/img/consultancy-5.jpg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:50vh;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+ padding-left:5rem;
+ color:white;
+
+
+}
+.main_img h1{
+
+font-size:3rem;
+font-weight:bold;
+}
+.main_img p{
+font-size:1.8rem;
+}
+
+.rm_imgs{
+width:100%;
+display:flex;
+justify-content:space-around;
+}
+.img_cntnr{
+width:20%;
+}
+.img_cntnr img{
+width:100%;
+}
+
+.r_btn{
+width:100%;
+background:black;
+color:white;
+font-size:2rem;
+}
+
+
+
+
+
+/*media queries*/
+
+@media (min-width:992px) and (max-width:1500px) {
+    html {
+        font-size: 55%
+    }
+
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    html {
+        font-size: 50%
+    }
+
+
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    html {
+        font-size: 45%
+    }
+
+
+
+}
+
+
+@media (max-width:576px) {
+    html {
+        font-size: 40%
+    }
+    .vc_row{
+    flex-direction:column;
+    width:100%;
+    margin:auto;
+    }
+    .wpb_column{
+    margin:auto;
+    }
+
+
+
+
+
+
+
+    }
+
+
+
+
+    

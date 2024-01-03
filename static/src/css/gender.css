@@ -1,0 +1,69 @@
+.main_gen{
+display:flex;
+width:100%;
+flex-direction:column;
+}
+
+.main_sec{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+width:100%;
+height:30vh;
+background:lightgray;
+}
+.main_sec h1{
+font-size:3rem;
+font-weight:bold;
+}
+.main_sec p{
+font-size:1.6rem;
+color:gray;
+}
+.main_sec_para{
+display:flex;
+flex-direction:column;
+width:90%;
+margin:auto;
+margin-top:5rem;
+}
+.main_sec_para h2{
+font-size:4rem;
+font-weight:bold;
+}
+.main_sec_para p{
+font-size:1.8rem;
+color:gray;
+line-height:4rem;
+
+}
+.f_link_p{
+text-decoration:underline;
+}
+
+.eq_head{
+font-size:5rem;
+font-weight:bold;
+}
+.listing__item a{
+font-size:2rem;
+text-decoration:underline;
+}
+
+.last_heading{
+
+margin:auto;
+text-align:center;
+font-weight:bold;
+font-size:3rem;
+color:#333346;
+}
+
+.line_data .line_p{
+color:red;
+}
+
+
+
+}
