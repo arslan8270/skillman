@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="skillman_web.kabada" name="skillman_web">
+        <t t-call="website.layout">
+            <head>
+                <meta charset="UTF-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+                <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+                      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+                      crossorigin="anonymous"/>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+                        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+                        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                        crossorigin="anonymous"></script>
+                <script src="https://kit.fontawesome.com/85d4ea6a88.js" crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+                        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                        crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="/skillman_web/static/src/css/kabada.css"/>
+
+
+                <title>Skill man</title>
+            </head>
+            <body>
+                <div class="main_kabada">
+                    <div class="kabada_img">
+
+                        <div class="riga">
+                            <h1>
+                                RIGA, LATVIA
+                                <br/>
+                                January 26,
+                                <br/>
+                                2023
+
+                            </h1>
+                            <div class="vc_btn3-container vc_btn3-right">
+                                <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-black"
+                                   style="    color: #fff;
+    background-color: #2a2a2a;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+margin-left: 15rem;"
+                                   href="https://learn.skillman.eu/course/view.php?id=147" title="">REGISTER
+                                </a>
+                            </div>
+                        </div>
+                        <div class="conference">
+                            <h1>KABADA CONFERENCE</h1>
+                        </div>
+                        <div class="alliance">
+                            <h1>SKILLMAN ALLIANCE SUMMIT 2023</h1>
+                        </div>
+                    </div>
+
+
+                    <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill">
+                        <div class="vc_column-inner vc_custom_1647513027543">
+                            <div class="wpb_wrapper" style="    display: flex;
+    flex-direction: column;">
+                                <div class="vc_empty_space" style="height: 60px">
+                                    <span class="vc_empty_space_inner"></span>
+                                </div>
+                                <div class="dt-fancy-separator title-right h2-size style-disabled" style="    width: 30%;
+    font-size: 4rem;
+    font-weight: bold;
+align-self:flex-end;">
+                                    <div class="dt-fancy-title bg-on"
+                                         style="color: #c4c5ca;background-color: rgba(4,50,98,0.85); text-align:center;">
+                                        <span
+                                                class="separator-holder separator-left"
+                                                style="border-color: rgba(4,50,98,0.85);"></span>ABOUT THE PROJECT
+                                        <span class="separator-holder separator-right"
+                                              style="border-color: rgba(4,50,98,0.85);"></span>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-content-top vc_row-flex"
+                                     style="    display: flex;
+    justify-content: space-around;">
+                                    <div class="wpb_column vc_column_container vc_col-sm-8" style="
+    width: 50%;
+">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element  vc_custom_1671803951216">
+                                                    <div class="wpb_wrapper" style="    display: flex;
+    flex-direction: column;
+margin-top:10rem;">
+                                                        <p>
+                                                            <span style="font-size: 18pt;">
+                                                                <span style="font-weight: 400;"><b>KABADA</b>;–;<i>
+                                                                    Knowledge Alliance of Business idea Assessment:
+                                                                    Digital Approach</i>;– is an;
+                                                                    <a
+                                                                            href="https://eacea.ec.europa.eu/erasmus-plus/actions/key-action-2-cooperation-for-innovation-and-exchange-good-practices_en">
+                                                                        <b>Erasmus+ KA2 project</b>
+                                                                    </a>
+                                                                    ;aimed at developing a tool based on an
+                                                                    artificial intelligence (AI) for the assessment of
+                                                                    business ideas and plans applicable to a wide range
+                                                                    of young entrepreneurs for the promotion
+                                                                    of;<strong>self-employment</strong>;and
+                                                                    <strong>business activities.</strong>
+                                                                </span>
+                                                            </span>
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="vc_btn3-container vc_btn3-center vc_custom_1673270386834"
+                                                     style="margin:4rem;">
+                                                    <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-black"
+                                                       style="    font-size: 2rem;
+    background: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* margin-bottom: 3rem; */"
+                                                       href="https://kabada.eu" title="" target="_blank">VISIT KABADA
+                                                        WEBSITE
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-4">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_empty_space" style="height: 30px">
+                                                    <span class="vc_empty_space_inner"></span>
+                                                </div>
+                                                <div class="wpb_single_image wpb_content_element vc_align_left">
+
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"
+                                                             style="width:50%;">
+                                                            <img width="300" height="300"
+                                                                 src="https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-300x300.png"
+                                                                 class="vc_single_image-img attachment-medium" alt=""
+                                                                 decoding="async" loading="lazy" title="Kabada_B (1)"
+                                                                 srcset="https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-300x300.png 300w, https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-200x200.png 200w, https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-600x600.png 600w, https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-1024x1024.png 1024w, https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-150x150.png 150w, https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-768x768.png 768w, https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-1536x1536.png 1536w, https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1-1320x1320.png 1320w, https://skillman.eu/wp-content/uploads/2022/12/Kabada_B-1.png 1772w"
+                                                                 sizes="(max-width: 300px) 100vw, 300px"
+                                                                 data-dt-location="https://skillman.eu/as2023/kabada_b-1/"/>
+                                                        </div>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="stripe stripe-style-1"
+                         style="background-color: rgb(196, 197, 202); background-position: center top; background-repeat: repeat; background-attachment: scroll; background-size: auto; padding-top: 55px; padding-bottom: 20px; margin-top: 0px; margin-bottom: 0px; min-height: 0px;">
+                        <div class="vc_row wpb_row vc_row-fluid" style="">
+                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper" style="display:flex; margin:4rem;">
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <p>
+                                                    <span style="font-size: 14pt;">KABADA objectives are:</span>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <span style="font-size: 14pt;"><strong>Development of
+                                                            entrepreneurial mind-set and skills in students and their
+                                                            teachers</strong>. A digital tool for assessment of business
+                                                            ideas will be developed as a prototype of artificial
+                                                            intelligence (AI) and will be made with the approach that it
+                                                            can be introduced into entrepreneurial education in any
+                                                            discipline to provide students, researchers, staff and
+                                                            educators with the knowledge, skills and motivation to
+                                                            engage in entrepreneurial activities.
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="wpb_single_image wpb_content_element vc_align_center wpb_animate_when_almost_visible wpb_fadeInLeft fadeInLeft wpb_start_animation animated">
+
+                                            <figure class="wpb_wrapper vc_figure">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                    <img class="vc_single_image-img "
+                                                         src="https://skillman.eu/wp-content/uploads/2022/12/possessed-photography-jIBMSMs4_kA-unsplash-scaled-1-546x326.jpg"
+                                                         width="546" height="326"
+                                                         alt="possessed-photography-jIBMSMs4_kA-unsplash-scaled"
+                                                         title="possessed-photography-jIBMSMs4_kA-unsplash-scaled"
+                                                         data-dt-location="https://skillman.eu/as2023/possessed-photography-jibmsms4_ka-unsplash-scaled/" style="padding:4rem;"/>
+                                                    <!--<img class="vc_single_image-img "
+                                                         src="https://skillman.eu/wp-content/uploads/2022/12/headway-5QgIuuBxKwM-unsplash-scaled-1-546x326.jpg"
+                                                         width="546" height="326"
+                                                         alt="headway-5QgIuuBxKwM-unsplash-scaled"
+                                                         title="headway-5QgIuuBxKwM-unsplash-scaled"
+                                                         data-dt-location="https://skillman.eu/as2023/headway-5qgiuubxkwm-unsplash-scaled/"/>-->
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper" style="display:flex;">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight wpb_start_animation animated">
+
+                                            <figure class="wpb_wrapper vc_figure">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                    <img class="vc_single_image-img "
+                                                         src="https://skillman.eu/wp-content/uploads/2022/12/headway-5QgIuuBxKwM-unsplash-scaled-1-546x326.jpg"
+                                                         width="546" height="326"
+                                                         alt="headway-5QgIuuBxKwM-unsplash-scaled"
+                                                         title="headway-5QgIuuBxKwM-unsplash-scaled"
+                                                         data-dt-location="https://skillman.eu/as2023/headway-5qgiuubxkwm-unsplash-scaled/" style="padding:5rem;"/>
+                                                    <!--  <img class="vc_single_image-img "
+                                                           src="https://skillman.eu/wp-content/uploads/2022/12/possessed-photography-jIBMSMs4_kA-unsplash-scaled-1-546x326.jpg"
+                                                           width="546" height="326"
+                                                           alt="possessed-photography-jIBMSMs4_kA-unsplash-scaled"
+                                                           title="possessed-photography-jIBMSMs4_kA-unsplash-scaled"
+                                                           data-dt-location="https://skillman.eu/as2023/possessed-photography-jibmsms4_ka-unsplash-scaled/"/>-->
+                                                </div>
+                                            </figure>
+                                        </div>
+
+                                        <div class="wpb_text_column wpb_content_element " style="padding:5rem;">
+                                            <div class="wpb_wrapper">
+                                                <p>
+                                                    <span style="font-size: 14pt;">KABADA aims are:</span>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <span style="font-size: 14pt;"><strong>Develop new, innovative
+                                                            and multidisciplinary approach to teaching
+                                                            business/entrepreneurship,</strong>as the developed
+                                                            system will become a part of study courses
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <span style="font-size: 14pt;"><strong>Facilitate the exchange,
+                                                            flow and co-creation of knowledge</strong>, as the system
+                                                            will be appropriate to be used in multiple educational
+                                                            sectors and will give an opportunity to use specific
+                                                            knowledge (e.g. engineering, physics, medicine) in new
+                                                            business ideas.
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+                        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+                        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            </body>
+        </t>
+    </template>
+</odoo>

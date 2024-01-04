@@ -35,6 +35,8 @@
         'data/plc_two.xml',
         'data/plc_three.xml',
         'data/plc_fourth.xml',
+        'data/newsletter.xml',
+        'data/kabada.xml',
         'views/views.xml',
         'views/templates.xml',
     ],

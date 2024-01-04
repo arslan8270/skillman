@@ -1,0 +1,131 @@
+html{
+font-size:62.5%;
+}
+
+.main_kabada{
+width:100%;
+display:flex;
+flex-direction:column;
+}
+.kabada_img{
+  background: url("/skillman_web/static/src/img/d-challenge-768x512.jpg");
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+
+}
+.kabada_img{
+width:100%;
+display:flex;
+flex-direction:column;
+color:#043262;
+font-weight:bold;
+justify-content:center;
+color:white;
+
+}
+
+.riga{
+background:#A9A8B7;
+width:20%;
+display:flex;
+flex-direction:column;
+align-self:end;
+height:200px;
+margin-top:4rem;
+
+
+
+}
+.riga h1{
+font-size:4rem;
+color:#043262;
+font-weight:bold;
+
+
+    text-align: -webkit-right;
+    padding: 2rem;
+
+}
+.conference h1{
+    font-size: 5rem;
+    background: #A9A8B7;
+    color: #043262;
+    width: 45%;
+    font-weight: bold;
+    padding: 3rem;
+}
+.alliance h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #c4c5ca;
+    background-color: rgba(4,50,98,0.85);
+    width: 60%;
+    padding: 3rem;
+    margin-bottom:3rem;
+
+}
+
+
+
+/*media queries*/
+
+@media (min-width:992px) and (max-width:1500px) {
+    html {
+        font-size: 55%
+    }
+
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    html {
+        font-size: 50%
+    }
+
+
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    html {
+        font-size: 45%
+    }
+
+
+
+}
+
+
+@media (max-width:576px) {
+    html {
+        font-size: 40%
+    }
+
+    .vc_row{
+    flex-direction:column;
+    margin:auto;
+    }
+
+    #last_div{
+    width:50%;
+    }
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+

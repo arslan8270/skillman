@@ -36,6 +36,14 @@ class SkillMan(http.Controller):
     def index(self, **kw):
         return request.render('skillman_web.plc_four')
 
+    @http.route('/newsletter', type='http', auth='public', website=True)
+    def index(self, **kw):
+        return request.render('skillman_web.newsletter')
+
+    @http.route('/kabada', type='http', auth='public', website=True)
+    def index(self, **kw):
+        return request.render('skillman_web.kabada')
+
 #     @http.route('/skillman_web/skillman_web/objects/', auth='public')
 #     def list(self, **kw):
 #         return http.request.render('skillman_web.listing', {
