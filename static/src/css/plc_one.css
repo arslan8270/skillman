@@ -8,8 +8,9 @@ width:100%;
 flex-direction:column;
 }
 .psl_one_img{
-width:100%;
+width:90%;
 display:flex;
+margin:auto;
 }
 .psl_one_left{
 width:20%;
@@ -28,8 +29,20 @@ font-size: 4rem;
     color: #1EBBF0;
     width: 50%;
     margin: auto;
-}
+    margin-bottom:5rem;
+margin-top:5rem;
 
+}
+#reply-title{
+margin-bottom:3rem;
+}
+.wpb_wrapper p{
+    font-size: 1.8rem;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    color: #85868C;
+    margin-bottom:5rem;
+}
 
 
 /*media queries*/
@@ -81,7 +94,14 @@ font-size: 4rem;
   .psl_one_right{
       width: 90%;
     margin: auto;
+    text-align:center;
   }
+
+    .dt-fancy-title{
+    width:75%;
+    margin:auto;
+    text-align:center;
+    }
 
 
 

@@ -224,17 +224,20 @@
                 </div>
 
                 <div class="line_data">
-                    <div style="float:left; width: 22%;">
+                    <div style="float:left; width: 30%;">
                         <hr/>
                     </div>
-                    <div style="float:right; width: 22%;">
+                    <div style="float:right; width: 30%;">
                         <hr/>
                     </div>
+                    <h1 class="talking">Tackling the gender pay gap in the European Union
+                    </h1>
 
-                    <p class="line_p">
-                        Tackling the gender pay gap in the European Union
+                    <!--                    <p class="line_p" id="track_p" style="margin-top: 4rem;-->
+                    <!--    font-size: 3.6rem;">-->
+                    <!--                        Tackling the gender pay gap in the European Union-->
 
-                    </p>
+                    <!--                    </p>-->
                 </div>
                 <h2 class="last_heading">Browse Booklet
                 </h2>

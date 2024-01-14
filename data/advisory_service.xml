@@ -33,6 +33,9 @@
                 <link rel="stylesheet" href="/skillman_web/static/src/css/advisory.css"/>
 
 
+
+
+
                 <title>Skill man</title>
             </head>
             <body>
@@ -42,12 +45,26 @@
                     <div class="main_img">
                         <h1>ADVISORY SERVICE
                         </h1>
-                        <p>Home / Skillman advisory service</p>
+                        <ol class="breadcrumbs text-small start-animation-done start-animation" itemscope=""
+                            href="https://schema.org/BreadcrumbList">
+                            <li itemprop="itemListElement" itemscope="" href="https://schema.org/ListItem">
+                                <a itemprop="item" href="https://skillman.eu/" title="Home">
+                                    <span itemprop="name">Home /</span>
+                                </a>
+                                <meta itemprop="position" content="1"/>
+                            </li>
+                            <li class="current" itemprop="itemListElement" itemscope=""
+                                href="https://schema.org/ListItem">
+                                <span itemprop="name">Skillman advisory service</span>
+                                <meta itemprop="position" content="2"/>
+                            </li>
+                        </ol>
+                        <!--                        <p>Home / Skillman advisory service</p>-->
                     </div>
-                    <div class="wpb_wrapper">
+                    <div class="wpb_wrapper" style="margin-top:7rem;">
                         <p align="center">
                             <b>
-                                <span style="font-size: x-large;">Whether you are a</span>
+                                <span style="font-size: x-large; color:#85868C;">Whether you are a</span>
                                 <span style="color: #45d6bb; font-size: x-large;">TVET provider, a school
                                     teacher/trainer, a company leader or a TVET expert…
                                 </span>
@@ -59,7 +76,7 @@
                         <div class="wpb_wrapper">
                             <p align="center">
                                 <span style="font-size: xx-large;">
-                                    <b>Start enjoying our Skillman advisory service!</b>
+                                    <b style="color:#85868C;">Start enjoying our Skillman advisory service!</b>
                                 </span>
                             </p>
 
@@ -68,7 +85,9 @@
 
                     <div class="wpb_wrapper">
                         <p align="center">
-                            <span style="font-family: arial black,sans-serif; font-size: xx-large;">it includes</span>
+                            <span style="font-family: arial black,sans-serif; font-size: xx-large; color:#85868C;">it
+                                includes
+                            </span>
                         </p>
 
                     </div>
@@ -96,7 +115,7 @@
                                     <div class="wpb_text_column wpb_content_element ">
                                         <div class="wpb_wrapper">
                                             <p align="center">
-                                                <span style="font-family: arial black,sans-serif; font-size: medium;">
+                                                <span style="font-family: arial black,sans-serif; font-size: medium; color:gray; margin-left:5rem;">
                                                     Support on EU tools
                                                 </span>
                                             </p>
@@ -109,7 +128,8 @@
                         <div class="wpb_column vc_column_container vc_col-sm-4">
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
-                                    <div class="wpb_single_image wpb_content_element vc_align_center">
+                                    <div class="wpb_single_image wpb_content_element vc_align_center" style="    margin: auto;
+    width: 71%;">
 
                                         <figure class="wpb_wrapper vc_figure">
                                             <div class="vc_single_image-wrapper   vc_box_border_grey">
@@ -127,7 +147,7 @@
                                     <div class="wpb_text_column wpb_content_element ">
                                         <div class="wpb_wrapper">
                                             <p align="center">
-                                                <span style="font-family: arial black,sans-serif; font-size: medium;">
+                                                <span style="font-family: arial black,sans-serif; font-size: medium; color:gray;">
                                                     Curriculum development guidelines
                                                 </span>
                                             </p>
@@ -158,7 +178,7 @@
                                     <div class="wpb_text_column wpb_content_element ">
                                         <div class="wpb_wrapper">
                                             <p align="center">
-                                                <span style="font-family: arial black,sans-serif; font-size: medium;">
+                                                <span style="font-family: arial black,sans-serif; font-size: medium; color:gray;">
                                                     Companies assistance on skills foresight
                                                 </span>
                                             </p>
@@ -168,6 +188,10 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="line_bar">
+
                     </div>
 
                     <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -297,16 +321,18 @@
 
 
                     <blockquote class="text-big shortcode-blockquote block-style-widget container-fluid"
-                                style="background:#F7F7F7; width:80%;">
+                                style="background:#F7F7F7; width:90%;">
                         <p>
-                            <span style="color: #808080; font-size:2rem; font-weight:bold;">“Desk service can mean many
+                            <span style="color: #808080; font-size:2rem; font-weight:bold; font-style:normal;">“Desk
+                                service can mean many
                                 things, depending on the nature of
                                 your business. But it all goes back to the core principle of helping people and serving
                                 as a place where they can go to get help.”
                             </span>
                         </p>
                         <p>
-                            <span style="color: #808080; font-size: small; ">Chris Grosspietsch, Senior Manager,
+                            <span style="color: #808080; font-size: small; font-weight:bold; font-style:normal; ">Chris
+                                Grosspietsch, Senior Manager,
                                 Advocacy
                                 Operations at Zendesk
                             </span>
@@ -314,7 +340,7 @@
                     </blockquote>
 
                     <div class="dt-fancy-separator title-left h2-size accent-title-color container-fluid d-flex"
-                         style="width: 100%; font-size:3rem; color:#34D9B5; font-weight:bold; margin-left:15rem;">
+                         style="width: 100%; font-size:3rem; color:#34D9B5; font-weight:bold; margin-left:6rem;">
                         <div class="dt-fancy-title"><span class="separator-holder separator-left"></span>SUPPORT ON EU
                             TOOLS
                             <span class="separator-holder separator-right"></span>
@@ -342,27 +368,63 @@
                     </div>
 
                     <div class="rm_imgs">
-                        <div class="img_cntnr">
-                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions.png"
-                                 alt="First slide"/>
+                        <div class="container">
+                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions.png"/>
                             <button class="r_btn">Read more</button>
 
+
+                            <div class="overlay" id="overlay_first">
+                                <div class="text">class="icom the7-font"</div>
+                            </div>
                         </div>
-                        <div class="img_cntnr">
-                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-1.png"
-                                 alt="First slide"/>
+                        <div class="container">
+                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-1.png"/>
                             <button class="r_btn">Read more</button>
+
+
+                            <div class="overlay" id="overlay_sec">
+                                <div class="text">class="icom the7-font"</div>
+                            </div>
                         </div>
-                        <div class="img_cntnr">
-                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-2.png"
-                                 alt="First slide"/>
+                        <div class="container">
+                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-2.png"/>
                             <button class="r_btn">Read more</button>
+
+
+                            <div class="overlay" id="overlay_third">
+                                <div class="text">class="icom the7-font"</div>
+                            </div>
                         </div>
-                        <div class="img_cntnr">
-                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-3.png"
-                                 alt="First slide"/>
+                        <div class="container">
+                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-3.png"/>
                             <button class="r_btn">Read more</button>
+
+
+                            <div class="overlay" id="overlay_fourth">
+                                <div class="text">class="icom the7-font"</div>
+                            </div>
                         </div>
+                        <!--                        <div class="img_cntnr">-->
+                        <!--                            <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions.png"-->
+                        <!--                                 alt="First slide"/>-->
+                        <!--                                                    <button class="r_btn">Read more</button>-->
+
+                        <!--                        </div>-->
+                        <!--                        <div class="img_cntnr">-->
+                        <!--                                                    <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-1.png"-->
+                        <!--                                 alt="First slide"/>-->
+                        <!--                            <button class="r_btn">Read more</button>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="img_cntnr">-->
+                        <!--                                                    <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-2.png"-->
+                        <!--                                 alt="First slide"/>-->
+                        <!--                            <button class="r_btn">Read more</button>-->
+                        <!--                        </div>-->
+                        <!--                        <div class="img_cntnr">-->
+                        <!--                                                    <img class="d-block w-100" src="/skillman_web/static/src/img/SIF-2020-sessions-3.png"-->
+                        <!--                                 alt="First slide"/>-->
+                        <!--                            <button class="r_btn">Read more</button>-->
+                        <!--                        </div>-->
                     </div>
 
                     <div class="wpb_wrapper">
@@ -375,7 +437,7 @@
                              style="width: 100%; margin-left:4rem;">
                             <div class="dt-fancy-title" style="    font-size: 4rem; margin:auto;
     color: #35DAB3;
-    font-weight: bold;"><span class="separator-holder separator-left"></span>CURRICULUM
+    font-weight: bold; margin-top:10rem;"><span class="separator-holder separator-left"></span>CURRICULUM
                                 DEVELOPMENT GUIDELINES
                                 <span class="separator-holder separator-right"></span>
                             </div>
@@ -413,7 +475,9 @@
     color: #2FD1C5;
     font-weight: bold;
     width: 95%;
-    margin: auto;">
+    margin: auto;
+margin-top:8rem;
+margin-bottom:5rem;">
                                     <span class="separator-holder separator-left"></span>
                                     COMPANIES ASSISTANCE ON SKILLS FORESIGHT
                                     <span class="separator-holder separator-right"></span>
@@ -445,7 +509,8 @@
                                     </div>
 
                                     <div class="wpb_text_column wpb_content_element ">
-                                        <div class="wpb_wrapper" style="font-size:1.8rem; margin-left:5rem; margin-right:5rem;">
+                                        <div class="wpb_wrapper"
+                                             style="font-size:1.8rem; margin-left:5rem; margin-right:5rem;">
                                             <p>
                                                 <span style="color: #45d6bb; font-size: x-large;">
                                                     <strong>
@@ -455,9 +520,15 @@
                                                     </strong>
                                                 </span>
                                             </p>
-                                            <p>In case you have any doubts or questions, please use the chat tool <strong>
-                                                by clicking <br/> on the “chat” icon
-                                            </strong> at the bottom right corner of the page. Our team will get <br/> back to
+                                            <p>In case you have any doubts or questions, please use the chat tool
+                                                <strong>
+                                                    by clicking
+                                                    <br/>
+                                                    on the “chat” icon
+                                                </strong>
+                                                at the bottom right corner of the page. Our team will get
+                                                <br/>
+                                                back to
                                                 you to assist with your enquiries.
                                             </p>
 

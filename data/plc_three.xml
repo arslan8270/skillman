@@ -39,11 +39,7 @@
                 <div class="main_plc_one">
                     <div class="pslone_heading">
                         <div class="dt-fancy-separator h2-size accent-title-color" style="width: 100%;">
-                            <div class="dt-fancy-title" style="    font-size: 4rem;
-    font-weight: bold;
-    color: #1EBBF0;
-    width: 50%;
-    margin: auto;"><span class="separator-holder separator-left"></span>Peer Learning Club 3 position paper
+                            <div class="dt-fancy-title"><span class="separator-holder separator-left"></span>Peer Learning Club 3 position paper
                                 <span class="separator-holder separator-right"></span>
                             </div>
                         </div>
@@ -120,7 +116,7 @@
                                     </a>
                                 </small>
                             </h3>
-                            <p class="must-log-in text-small" style="font-size:1.6rem; color:#858697;">You must be <a
+                            <p class="must-log-in text-small" style="font-size:1.6rem; color:#858697; margin-bottom:10rem;">You must be <a
                                     href="https://skillman.eu/wp-login.php?redirect_to=https%3A%2F%2Fskillman.eu%2Fpeer-learning-club-1-advanced-manufacturing-sector-publication%2F">
                                 logged in
                             </a> to post a comment.

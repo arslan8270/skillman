@@ -37,6 +37,7 @@
         'data/plc_fourth.xml',
         'data/newsletter.xml',
         'data/kabada.xml',
+        'data/network_timeline.xml',
         'views/views.xml',
         'views/templates.xml',
     ],

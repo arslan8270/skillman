@@ -21,7 +21,7 @@ font-size:62.5%;
 }
 .main_img h1{
 
-font-size:3rem;
+font-size:3.5rem;
 font-weight:bold;
 }
 .main_img p{
@@ -46,6 +46,88 @@ background:black;
 color:white;
 font-size:2rem;
 }
+
+ol{
+    list-style: none;
+    display: flex;
+    font-size: 1.8rem;
+    color: white;
+}
+ol li a{
+color:white;
+}
+ol li a:hover{
+color:white;
+}
+
+.vc_single_image-wrapper{
+margin:auto;
+width:71%;
+}
+.line_bar{
+width:90%;
+margin:auto;
+height:.4rem;
+background:#23C2E4;
+margin-top:4rem;
+}
+
+
+
+
+ .container {
+                    position: relative;
+                    width: 20%;
+                    }
+
+                    .image {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    }
+
+                    .overlay {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    overflow: hidden;
+                    width: 100%;
+                    height: 0;
+                    transition: .5s ease;
+                    }
+
+                    .container:hover .overlay {
+                    height: 100%;
+                    width:100%;
+                    }
+
+                    .text {
+                    color: white;
+                    font-size: 50px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                    }
+
+                    #overlay_first{
+                    background:#F9D675;
+
+                    }
+                      #overlay_sec{
+                    background:#E09191;
+
+                    }  #overlay_third{
+                    background:#619CA5;
+
+                    }  #overlay_fourth{
+                    background:#999999;
+
+                    }
 
 
 
@@ -93,6 +175,14 @@ font-size:2rem;
     .wpb_column{
     margin:auto;
     }
+    .rm_imgs{
+    flex-direction:column;
+    width:100%;
+    }
+    .container{
+    width:100%;
+    margin-top:2rem;
+    }
 
 
 
@@ -101,7 +191,6 @@ font-size:2rem;
 
 
     }
-
 
 
 
